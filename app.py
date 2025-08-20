@@ -81,5 +81,3 @@ if st.button("Predict"):
     loan_status = "Yes ✅" if class_pred[0] == 1 else "No ❌"
     st.info(f"Loan Approved: {loan_status}")
 
-#python -m streamlit run "c:\Users\adity\CRS Predictor\app.py"
-#. .venv\Scripts\Activate
